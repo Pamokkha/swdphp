@@ -116,5 +116,13 @@ foreach($mark as $key => $value){
         echo $key . "Failed";
     }
 }
+
+// // Multidimensional Array
+// $users = array(
+//     array("name" => "Aung", "age" => 30, "city" => "Yangon"),
+//     array("name" => "Kyaw", "age" => 40, "city" => "Mandalay")
+//     array("name")
+// )
+
 ?>
 
