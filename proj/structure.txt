@@ -1,0 +1,16 @@
+//Features
+-students (name,grade)- store in array-multi 
+-Display (name/(pssed or failed))
+
+<!-- pages
+ -login (username, passwor)- admin, 123456
+ -view student info (light/dark)
+ -logout
+  -->
+ <!-- index.php(login form) -->
+
+<!-- deshboard.php(student info) -->
+
+   <!-- set_theme.php(btn to switch) -->
+
+    <!-- logut.php (detete login session) -->
