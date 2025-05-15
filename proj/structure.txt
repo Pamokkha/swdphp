@@ -14,3 +14,10 @@
    <!-- set_theme.php(btn to switch) -->
 
     <!-- logut.php (detete login session) -->
+
+    <!-- 
+ -html
+ -welcome, dashboard
+ -create multi array
+ -display with table
+  -->

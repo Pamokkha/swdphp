@@ -2,7 +2,8 @@
 <?php
 session_start();
 if(isset($_SESSION['login'])){
-    session_destroy();
+    header ("Location: dashboard.php"); // already login
+    exit();
 }
 ?>
 
@@ -15,6 +16,7 @@ if(isset($_SESSION['login'])){
 </head>
 <body>
     <h1>Login Page</h1>
+    <!-- login form -->
     <form action="#" method="post">
         <label for="username">Username:</label>
         <input type="text" name="username" id="username"> <br>
@@ -26,7 +28,7 @@ if(isset($_SESSION['login'])){
 </body>
 </html>
 <?php
-
+// collect form data
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = htmlspecialchars ($_POST['username']);
     $password = htmlspecialchars ($_POST['password']);
