@@ -21,3 +21,16 @@
  -create multi array
  -display with table
   -->
+
+  -home 
+  -about
+  -contact
+
+  blog
+  -home(posts)->index.html
+  -post(detail ui)-> detail.html
+  -navbar(home, register, login)
+  -register (create form)->register html
+  -login (login form)-login html
+  -profile(ui)-> profile.html
+  -create post (post create form)-> createPost.html
